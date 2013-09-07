@@ -1,6 +1,7 @@
 accessibility-guide
 ===================
 
+These are some (but not all) of the elements that you can use. This is just a basic overview, so visit the links to get more detail on how they should be used.
 
 <table>
 <tbody>
