@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accessibility - HTML5</title>
+</head>
+<body>
+    <!-- SKIP: If your page contains many links, skip help you access content immediately at the top of the page. -->
+    <ul style="display:none">
+        <li><a href="#siteNavigation">Skip to navigation</a></li>
+        <li><a href="#siteMainContent">Skip to content</a></li>
+    </ul>
+
+    <!-- BANNER: Content that describes the site, like a logo. -->
+    <header role="banner">
+        <h1>Brand Name</h1>
+        <img src="http://placehold.it/800x80" alt="Always provide alt text for accessibility" />        
+    </header>
+
+    <!-- NAVIGATION: A set of links for navigating within the site. -->
+    <nav role="navigation" id="siteNavigation">
+        <ul>
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+            <li><a href="#">Link Four</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN: For the main content piece of a document. -->
+    <div role="main" id="siteMainContent">
+
+        <!-- CONTENTINFO: Information about the document -->
+        <div class="page-title" role="contentinfo">
+            <h2>Page Title</h2>
+        </div>
+
+        <!-- REGION: Section is for a section of a document. -->
+        <section role="region">
+            <h3>Section Title</h3>
+            <p>Donec facilisis elit quis purus pellentesque, nec porta urna cursus. Aenean eu semper eros, in semper turpis. Suspendisse porttitor leo neque, non lobortis tellus condimentum et. Mauris quis molestie massa, mollis venenatis nunc. Vestibulum eget fringilla ante. Etiam sollicitudin erat non magna tincidunt molestie. Vivamus feugiat in nunc tincidunt tristique. Maecenas vitae lorem purus.</p>
+        </section>
+
+        <!-- REGION: Section is for a section of a document. -->
+        <section role="region">
+            <article role="article">
+                <h3>Article's Name</h3>
+                <p>Curabitur sed ultrices ipsum. Aliquam bibendum non leo semper elementum. Phasellus at nunc mauris. In hac habitasse platea dictumst. Cras elit nisl, cursus sed fringilla eget, mollis sed nisi.</p>
+            </article>
+        </section>
+
+        <!-- COMPLEMENTARY: Section is for a section of a document. -->
+        <aside role="complementary">
+            <p>This is a sidebar that illustrates how we could declare secondary content.</p>
+        </aside>
+    </div>
+
+    <!-- CONTENTINFO: Information about the document. -->
+    <footer role="contentinfo">
+        <p>Vivamus luctus, turpis eget facilisis tristique, lorem orci consequat eros, quis vehicula lacus ante non justo.</p>
+    </footer>
+</body>
+</html>
