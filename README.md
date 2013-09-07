@@ -1,5 +1,6 @@
-accessibility-guide
+Accessibility Guide
 ===================
+Accessibility is not a niche area of web design: everybody who works on the web needs to be interested in accessibility. You should try to make your websites as accessible as possible. For some of you it’s a legal obligation, but for everyone else it’s just the right thing to do.
 
 These are some (but not all) of the elements that you can use. This is just a basic overview, so visit the links to get more detail on how they should be used.
 
