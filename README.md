@@ -4,6 +4,8 @@ Accessibility is not a niche area of web design: everybody who works on the web 
 
 These are some (but not all) of the elements that you can use. This is just a basic overview, so visit the links to get more detail on how they should be used.
 
+(link)[http://ernesto-valdes.github.io/accessibility-guide]
+
 <table>
 <tbody>
 <tr>
